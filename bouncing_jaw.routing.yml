@@ -1,0 +1,7 @@
+bouncing_jaw.settings:
+  path: '/admin/config/media/bouncing_jaw'
+  defaults:
+    _form: '\Drupal\bouncing_jaw\Form\BouncingJawConfigForm'
+    _title: 'Bouncing jaw Configuration'
+  requirements:
+    _permission: 'administer site configuration'

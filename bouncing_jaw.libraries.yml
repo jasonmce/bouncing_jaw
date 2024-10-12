@@ -1,0 +1,22 @@
+# Provides bouncing jaw scripts and styles.
+bouncing_jaw_player:
+  js:
+    js/bouncing-jaw-player.js: {}
+  css:
+    component:
+      css/bouncing-jaw-player.css: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+
+admin_page:
+  js:
+    js/admin.js: {}
+  css:
+    component:
+      css/admin.css: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery

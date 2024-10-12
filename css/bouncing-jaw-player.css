@@ -1,0 +1,22 @@
+.bouncing-jaw-player {
+  display: none;
+}
+
+.bouncing-jaw-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bouncing-jaw {
+  position: relative;
+}
+
+.jaw-image {
+  background-color: transparent;
+  border-color: #000000;
+  border-image: none;
+  border-style: solid;
+  position: absolute;
+  display: none;
+}

@@ -1,0 +1,39 @@
+bouncing_jaw.settings:
+  type: config_object
+  label: "Bouncing Jaw Settings"
+  mapping:
+    # Based on MovieSettingsForm::SETTING_KEY_MOVIE_LANGUAGES = "movie.languages"
+    # movie = refers to the entity and is a top-level grouping
+    # languages = the actual setting we want to save and use in our custom module
+    face_file:
+      type: integer
+      label: "face file index"
+    jaw_left:
+      type: integer
+      label: "jaw left side"
+    jaw_top:
+      type: integer
+      label: "jaw top side"
+    jaw_width:
+      type: integer
+      label: "jaw width"
+    jaw_height:
+      type: integer
+      label: "jaw height"
+    jaw_move:
+      type: integer
+      label: "jaw animation movement"
+    button_text:
+      type: string
+      label: "Play button text"
+
+    sets:
+      type: sequence
+      sequence:
+        type: mapping
+        mapping:
+          name:
+            type: string
+            label: "Name of this clip"
+          audio_file:
+            type: integer

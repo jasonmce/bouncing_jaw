@@ -1,0 +1,7 @@
+name: Bouncing Jaw
+type: module
+description: Plays an audio list while showing a headshot with an animated jaw to simulate talking.  Badly.
+package: Custom
+core_version_requirement: ^9 || ^10 || ^11
+dependencies:
+  - drupal:file

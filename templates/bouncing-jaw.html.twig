@@ -1,0 +1,21 @@
+{# [module]/templates/bouncing-jaw.html.twig #}
+
+<style>
+  .jaw-image {
+    background-image: url( {{ imageUrl }});
+    background-position: {{ backgroundLeft }}% {{ backgroundTop }}%;
+    width: {{ jawImageWidth }}%;
+    height: {{ jawImageHeight }}%;
+    top: {{ jawImageTop }}%;
+    left: {{ jawImageLeft }}%;
+  }
+</style>
+
+<div class='bouncing-jaw-container'>
+  <figure class='bouncing-jaw'>
+    <img class='background-image' src='{{ imageUrl }}' alt='Face' />
+    <div class='jaw-image' />
+    <audio class='bouncing-jaw-player' controls src='{{ tracks[0] }}' />
+  </figure>
+  <button class='play-me'>{{ buttonText }}</button>
+</div>

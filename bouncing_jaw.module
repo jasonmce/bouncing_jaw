@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Bouncing Jaw module.
+ */
+
+ /**
+ * Implements hook_theme().
+ */
+function bouncing_jaw_theme($existing, $type, $theme, $path) {
+  return [
+    'bouncing_jaw' => [
+      'variables' => [
+        'imageUrl' => NULL,
+        'backgroundLeft' => NULL,
+        'backgroundTop' => NULL,
+        'jawImageHeight' => NULL,
+        'jawImageWidth' => NULL,
+        'jawImageTop' => NULL,
+        'jawImageLeft' => NULL,
+        'buttonText' => NULL,
+        'tracks' => [],
+      ],
+    ],
+  ];
+}

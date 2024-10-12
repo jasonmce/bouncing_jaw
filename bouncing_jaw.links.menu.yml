@@ -1,0 +1,6 @@
+bouncing_jaw.settings:
+  title: 'Bouncing Jaw'
+  route_name: bouncing_jaw.settings
+  parent: system.admin_config_media
+  description: 'Configure the bouncing jaw block'
+  weight: 50

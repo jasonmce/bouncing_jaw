@@ -1,0 +1,21 @@
+{
+  "name": "jasonmce/bouncing_jaw",
+  "description": "Drupal module to provide an animated monty-python-esque bouncing-jaw sound clip player block",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+      {
+          "name": "Jason McEachen (jasonmce)",
+          "homepage": "https://www.drupal.org/u/JasonMcE",
+          "role": "Maintainer"
+      }
+  ],
+  "homepage": "https://github.com/jasonmce/bouncing_jaw",
+  "support": {
+      "issues": "https://github.com/jasonmce/bouncing_jaw/issues",
+      "source": "https://github.com/jasonmce/bouncing_jaw"
+  },
+  "require": {
+  }
+}
+
