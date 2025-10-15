@@ -148,9 +148,6 @@ class BouncingJawBlock extends BlockBase implements ContainerFactoryPluginInterf
       '#buttonText' => $config->get('button_text'),
       '#tracks' => $tracks,
       '#attached' => [
-        'library' => [
-          'bouncing_jaw/bouncing_jaw_player',
-        ],
         'drupalSettings' => [
           'bouncingJaw' => [
             'tracks' => $tracks,
